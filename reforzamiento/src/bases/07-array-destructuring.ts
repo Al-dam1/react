@@ -9,9 +9,10 @@ const returnArray = ()=> {
 const [letters, numbers] = returnArray();
 console.log(letters , numbers);
 
-
+//tarea de desestructuracion
 const useState = (value: string) => {
-    return [value, (newvalue:string)=>{
+    return [
+        value, (newvalue:string)=>{
         console.log(newvalue);
         
     },
@@ -21,3 +22,4 @@ const useState = (value: string) => {
 const [name, setName] = useState('Goku');
 console.log(name);       // Goku
 setName('Vegeta');       // Imprime: Vegeta
+
