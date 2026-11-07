@@ -3,6 +3,7 @@ export function SegundoComponente(){
         <>
         <h2>Segundo Componente</h2>
          <p>parrafo del segundo componente</p>
+<p>aprendiendo react desde cero :)</p>
         </>
     )
 }
