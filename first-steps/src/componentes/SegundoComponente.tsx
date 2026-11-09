@@ -1,9 +1,8 @@
 export function SegundoComponente(){
     return (
         <>
-        <h2>Segundo Componente</h2>
-         <p>parrafo del segundo componente</p>
-<p>aprendiendo react desde cero :)</p>
+        <h2>Alderete</h2>
+         <p>Damián Nicolás</p>
         </>
     )
 }
