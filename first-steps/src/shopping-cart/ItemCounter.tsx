@@ -1,5 +1,7 @@
 import {useState} from 'react'
 
+
+import './ItemCounter.css'
 interface Props {
   name: string,
   quantity?: number
@@ -20,15 +22,10 @@ const ItemCounter = ({name, quantity = 1}: Props) => {
     
   }
   return (
-    <div style={{
-        display:'flex',
-        alignItems: 'center',
-        justifyContent: 'center',
-        marginTop: 20,
-        gap: 10,
-    }}>
-    <span style={{
-      width: 200,
+    <div className='contenedor'>
+    <span  className='text'
+    style={{
+      color: count === 1 ? 'red' : 'black',
     }}> {name}
       </span>
       <button onClick={handleAdd}>+1</button>
